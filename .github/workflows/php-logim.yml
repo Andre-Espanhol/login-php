@@ -1,0 +1,13 @@
+# Workflow rescrito para utilizar o workflow Reutilizável (Corrigido)
+#         uses: Andre-Espanhol/php-workflows/.github/workflows/logim.yml@master
+
+name: CI via Workflow Reutilizável (correção)
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+
+jobs:
+  login:
+    uses: Andre-Espanhol/php-workflows/.github/workflows/logim.yml@master
